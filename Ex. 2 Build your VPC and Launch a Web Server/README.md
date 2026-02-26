@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:DIVYA LAKSHMI M
+* **Register Number**:212224040082
+* **Date of Submission**:24/02/2026
 
 ---
 
@@ -85,13 +85,23 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+### Step-1:
+I started the lab and logged into the Amazon Web Services Management Console in the N. Virginia (us-east-1) region.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+### Step-2:
+I created a custom VPC using Amazon VPC, configured public and private subnets, and enabled an Internet Gateway and NAT Gateway to manage internet connectivity.
+
+### Step-3:
+I added additional public and private subnets in a second Availability Zone and updated the route tables to ensure proper routing for both internet-facing and private traffic.
+
+### Step-4:
+I created a Security Group named Web Security Group and configured it to allow HTTP (port 80) access from anywhere to enable web traffic.
+
+### Step-5:
+I launched an EC2 instance using Amazon EC2 in the public subnet, enabled auto-assign public IP, attached the security group, and selected the required key pair.
+
+### Step-6:
+I configured a user data script to automatically install Apache and deploy a web application, then verified the web server by accessing the instance’s public DNS in a browser.
 
 ---
 
@@ -99,19 +109,29 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+
+<img width="1919" height="1103" alt="Screenshot 2026-02-14 105302" src="https://github.com/user-attachments/assets/de2272b1-a4dc-4773-bd1d-4723020ec902" />
+
+<img width="1917" height="1032" alt="Screenshot 2026-02-14 095651" src="https://github.com/user-attachments/assets/2a79b469-b69d-454e-bc97-dde5457d16fb" />
+
+
+<img width="1907" height="1030" alt="Screenshot 2026-02-14 095959" src="https://github.com/user-attachments/assets/beb213a0-b553-470e-ad33-54f85855b7ce" />
+
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1918" height="1044" alt="Screenshot 2026-02-14 101447" src="https://github.com/user-attachments/assets/7f86b932-be25-4e53-9ca3-e45cf2ae8de6" />
+
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+![WhatsApp Image 2026-02-14 at 10 49 52 AM](https://github.com/user-attachments/assets/c06db992-fc2d-46a5-847f-3c5437d03865)
+
 
 ---
 
