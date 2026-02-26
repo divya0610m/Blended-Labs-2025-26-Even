@@ -1,4 +1,4 @@
-# Build Your VPC and Launch a Web Server (AWS) 
+># Build Your VPC and Launch a Web Server (AWS) 
 
 ## Author
 
@@ -110,28 +110,25 @@ I configured a user data script to automatically install Apache and deploy a web
 ### Screenshot 1: VPC and Subnet Details
 
 
-<img width="1919" height="1103" alt="Screenshot 2026-02-14 105302" src="https://github.com/user-attachments/assets/de2272b1-a4dc-4773-bd1d-4723020ec902" />
+<img width="1267" height="676" alt="image" src="https://github.com/user-attachments/assets/ca3a2912-b843-40f5-8ed8-9e59b4a90fa8" />
 
-<img width="1917" height="1032" alt="Screenshot 2026-02-14 095651" src="https://github.com/user-attachments/assets/2a79b469-b69d-454e-bc97-dde5457d16fb" />
-
-
-<img width="1907" height="1030" alt="Screenshot 2026-02-14 095959" src="https://github.com/user-attachments/assets/beb213a0-b553-470e-ad33-54f85855b7ce" />
+<img width="1266" height="607" alt="Screenshot 2026-02-26 102606" src="https://github.com/user-attachments/assets/4ff52157-36dc-48bd-aff2-a4e9d0339bd1" />
 
 
+<img width="1262" height="662" alt="image" src="https://github.com/user-attachments/assets/ef18695a-539b-47c0-aa9d-480f6d5ece09" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-<img width="1918" height="1044" alt="Screenshot 2026-02-14 101447" src="https://github.com/user-attachments/assets/7f86b932-be25-4e53-9ca3-e45cf2ae8de6" />
+<img width="1270" height="618" alt="Screenshot 2026-02-26 102545" src="https://github.com/user-attachments/assets/bdbeafaa-fd69-4f73-ab81-23d82f1046a6" />
 
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-![WhatsApp Image 2026-02-14 at 10 49 52 AM](https://github.com/user-attachments/assets/c06db992-fc2d-46a5-847f-3c5437d03865)
-
+<img width="1879" height="1020" alt="Screenshot 2026-02-26 092334" src="https://github.com/user-attachments/assets/0d8993d1-f337-4ed1-8122-ac345535a147" />
 
 ---
 
