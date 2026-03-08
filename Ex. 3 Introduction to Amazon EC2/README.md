@@ -2,10 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
-
+* **Name**: DIVYA LAKSHMI M
+* **Register Number**: 212224040082
+* **Date of Submission**: 28-02-2026
 ---
 
 ## Objective
@@ -96,13 +95,15 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1.The EC2 Dashboard was accessed through the AWS Management Console to explore the Amazon EBS volume types.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2.A new EBS volume was created by selecting the volume type, size, and the same Availability Zone as the EC2 instance.
+
+3.The created EBS volume was attached to the running EC2 instance as an additional block device. 
+
+4.The attached volume was formatted using the ext4 file system and mounted to a directory in the EC2 instance. 
+
+5.Sample data was stored in the mounted volume, and after rebooting the instance, data persistence was verified successfully.
 
 ---
 
@@ -110,19 +111,21 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
+<img width="1271" height="609" alt="Screenshot 2026-03-08 194006" src="https://github.com/user-attachments/assets/5a373bd1-6cc8-404c-adb4-d49815a4c522" />
+
+<img width="1268" height="608" alt="Screenshot 2026-03-08 193946" src="https://github.com/user-attachments/assets/c430db77-908f-4f4e-b48a-54cfe663b595" />
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
-
----
+<img width="1268" height="797" alt="Screenshot 2026-03-08 193929" src="https://github.com/user-attachments/assets/24193cbe-be67-4be7-b9ff-4b861395de80" />
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1265" height="613" alt="Screenshot 2026-03-08 193913" src="https://github.com/user-attachments/assets/ba213e78-9b15-421a-bfde-99a524a9faf4" />
+
+<img width="1267" height="614" alt="Screenshot 2026-03-08 193850" src="https://github.com/user-attachments/assets/7632b993-887a-4a46-830d-2e7fba41f931" />
 
 ---
 
