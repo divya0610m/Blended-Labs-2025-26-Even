@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: DIVYA LAKSHMI M
+* **Register Number**: 212224040082
+* **Date of Submission**: 19.03.2026
 
 ---
 
@@ -82,13 +82,12 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. First, a security group named DB Security Group was created to allow the web server to connect to the database using port 3306 (MySQL).
+2. A DB Subnet Group was created with subnets from two Availability Zones to allow the database to run in a Multi-AZ environment for high availability.
+3. A MySQL RDS instance named lab-db was created with the database name lab, username main, and password lab-password.
+4. The database was associated with the DB Security Group and the Lab VPC so that the web server can securely connect to the database.
+5. The web application running on the EC2 server was opened using its IP address, and the RDS endpoint, database name, username, and password were entered to interact with the database.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
 
 ---
 
@@ -96,19 +95,19 @@ Test the database server by connecting to it locally or remotely and performing 
 
 ### Screenshot 1: EC2 Instance for Database Server
 
-(Insert Screenshot Here)
+<img width="1284" height="648" alt="Screenshot 2026-03-19 172346" src="https://github.com/user-attachments/assets/4e814784-bd61-4d02-aa2c-79d1ec3f3a67" />
 
 ---
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
+<img width="1270" height="649" alt="Screenshot 2026-03-19 172328" src="https://github.com/user-attachments/assets/e8fb9e07-03d9-4526-9044-c0c036989346" />
 
 ---
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
+<img width="1910" height="1133" alt="Screenshot 2026-03-01 105153" src="https://github.com/user-attachments/assets/a6917d75-af8c-4dd8-bf5f-45b03f311162" />
 
 ---
 
