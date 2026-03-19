@@ -71,11 +71,20 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 ## Output Screenshots 
 
-<img width="1287" height="575" alt="Screenshot 2026-03-19 173024" src="https://github.com/user-attachments/assets/ec377e1c-51e7-421b-8755-63380d2c19f4" />
+## Created LoadBalancer
 
-<img width="1292" height="574" alt="Screenshot 2026-03-19 173008" src="https://github.com/user-attachments/assets/9a36c394-a6b3-485d-a6f4-072d5bde65f2" />
+<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/30bcd1d3-d987-4d74-8107-4e3a64acadc3" />
 
-<img width="1282" height="584" alt="Screenshot 2026-03-19 172953" src="https://github.com/user-attachments/assets/f28b8eef-e893-42d9-9a12-2efb9ba26e56" />
+## Created LabConfig
+
+<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/6da7573d-c81b-4621-91aa-e419be44821b" />
+
+## Dynamic Scaling Policy created
+
+<img width="1920" height="967" alt="image" src="https://github.com/user-attachments/assets/d09eafcc-42ca-43e2-8b6d-de4b226b63f7" />
+
+---
+
 
 ## Result
 
